@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>用 src 属性在框架中插入网页</title>
+</head>
+
+<frameset cols="30%,*">  <!-- 框架集与body同级别，columns列 -->
+	<frame src="../01基本文字超链接.html">  <!-- 分层几块就需要多少个frame框架 -->
+	
+	<frameset rows="30%,*">  <!-- 框架嵌套：将第二个frame改成frameset -->
+		<frame src="../02设置图片的超链接.html">
+		<frame src="../04设置电子邮件链接.html">
+	</frameset>
+
+</frameset>
+
+</html>
